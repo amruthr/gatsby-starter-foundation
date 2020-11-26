@@ -3,6 +3,6 @@ template: contact-page
 slug: /contact
 title: Get in touch
 ---
-Got a burning question regarding **JAMstack**, Need a new **Website**, or just anything in general. We are happy to talk.
+We will be glad to help you, Reach out to us anytime with your query.
 
-Just send us a message using the form below or you can send us a DM on [Twitter](https://twitter.com/stackrole)
+`<a class="button" href="`https://api.whatsapp.com/send?phone=919845049252&text=Hi%20there%20%F0%9F%98%80`"> Text on Whatsapp </a>`
