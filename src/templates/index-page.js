@@ -2,11 +2,11 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 import { RiArrowRightSLine } from "react-icons/ri"
-
+import BackgroundSlider from 'gatsby-image-background-slider'
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
+import BackgroundCarousel from "../components/background-carousel"
 import SEO from "../components/seo"
-
 export const pageQuery = graphql`
   query HomeQuery($id: String!){
 		markdownRemark(id: { eq: $id }) {
@@ -29,8 +29,12 @@ export const pageQuery = graphql`
           ctaText
           ctaLink
         }
+        contact {
+          contactText
+          contactLink
+        }
       }
-    }
+    }   
   }
 `
 
@@ -47,15 +51,17 @@ const HomePage = ({ data }) => {
           <p class="tagline">{frontmatter.tagline}</p>
           <div className="description" dangerouslySetInnerHTML={{__html: html}}/>
           <Link to={frontmatter.cta.ctaLink} className="button">{frontmatter.cta.ctaText}<span class="icon -right"><RiArrowRightSLine/></span></Link>
+          <a href={`tel:9845049252`} className="button" style={{marginTop:'30px'}}>{frontmatter.contact.contactText}<span class="icon-right"><RiArrowRightSLine/></span></a>
         </div>
         <div>
-          {Image ? (
+         {/*  {Image ? (
             <Img 
               fluid={Image} 
               alt={frontmatter.title + ' - Featured image'}
               className="featured-image"
             />
-          ) : ""}
+          ) : ""} */}
+           <BackgroundCarousel className="featured-image"/>  
         </div>
       </div>
       <BlogListHome/>

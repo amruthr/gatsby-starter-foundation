@@ -29,7 +29,15 @@ module.exports = {
         name: `content`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `backgrounds`,
+        path: `${__dirname}/src/bg`, // wherever background images are stored
+      },
+    },
     `gatsby-transformer-sharp`,
+    
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
@@ -79,8 +87,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Foundation`,
-        short_name: `Foundation`,
+        name: `A to Z Collections, Mangalore`,
+        short_name: `A to Z Collections`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
