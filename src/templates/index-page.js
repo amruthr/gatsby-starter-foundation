@@ -54,14 +54,14 @@ const HomePage = ({ data }) => {
           <a href={`tel:9845049252`} className="button" style={{marginTop:'30px'}}>{frontmatter.contact.contactText}<span class="icon-right"><RiArrowRightSLine/></span></a>
         </div>
         <div>
-         {/*  {Image ? (
+        {Image ? (
             <Img 
               fluid={Image} 
               alt={frontmatter.title + ' - Featured image'}
               className="featured-image"
             />
-          ) : ""} */}
-           <BackgroundCarousel className="featured-image"/>  
+          ) : ""}
+           {/* <BackgroundCarousel className="featured-image"/>   */}
         </div>
       </div>
       <BlogListHome/>

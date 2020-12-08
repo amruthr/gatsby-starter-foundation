@@ -3,7 +3,7 @@ template: index-page
 slug: /
 title: A to Z Collections
 tagline: Baby care products and new born baby products all under 1 roof.
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+featuredImage: /assets/hero.jpg
 cta:
   ctaText: Know more
   ctaLink: /about
