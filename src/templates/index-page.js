@@ -53,14 +53,12 @@ const HomePage = ({ data }) => {
           <Link to={frontmatter.cta.ctaLink} className="button">{frontmatter.cta.ctaText}<span class="icon -right"><RiArrowRightSLine/></span></Link>
           <a href={`tel:9845049252`} className="button" style={{marginTop:'30px'}}>{frontmatter.contact.contactText}<span class="icon-right"><RiArrowRightSLine/></span></a>
         </div>
-        <div>
-        {Image ? (
+        <div>      
             <Img 
               fluid={Image} 
               alt={frontmatter.title + ' - Featured image'}
               className="featured-image"
             />
-          ) : ""}
            {/* <BackgroundCarousel className="featured-image"/>   */}
         </div>
       </div>
