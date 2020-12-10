@@ -13,4 +13,4 @@ At A To Z Collections, we provide a range of maternity products from  a wide var
 
 ![Philips, Himalaya, Mama earth and other brands available](/assets/brands.png)
 
-![](/assets/scf332_01-ims-en_bh.webp)
+![Avent Philips Breast Pump](/assets/scf332_01-ims-en_bh.webp)
