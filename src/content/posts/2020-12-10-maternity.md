@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: "Maternity "
-slug: /Products/Maternity1
+slug: /Products/Maternity
 date: 2020-12-10 20:37
 description: "A to Z Collections offers a wide variety of maternity products.
   These products will surely be the best maternity products for motherhood. "
