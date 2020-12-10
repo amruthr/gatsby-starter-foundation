@@ -9,4 +9,4 @@ featuredImage: /assets/moms_maternity.jpg
 ---
 At A To Z Collections, we provide a range of maternity products from  a wide variety of brands including [Mama Earth](mamaearth.in), [Himalaya](himalayababycare.com) and others.
 
-![Pjilips, Himalaya, Mama earth and other breands available](/assets/brands.png)
+![Philips, Himalaya, Mama earth and other brands available](/assets/brands.png)
