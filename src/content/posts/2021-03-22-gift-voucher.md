@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: Gift Voucher
-slug: /gift-voucher
+slug: /giftvoucher
 date: 2021-03-22 15:51
 description: "Shop for Baby care products at A to Z collections and win  a
   discount voucher worth ₹200 "
